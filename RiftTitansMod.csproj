@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>RiftTitansMod</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="RiftTitansMod.monstermodassets" />
+    <None Remove="RiftTitansMod.ReksaiSoundbank.bnk" />
+    <EmbeddedResource Include="RiftTitansMod.monstermodassets" LogicalName="RiftTitansMod.monstermodassets" />
+    <EmbeddedResource Include="RiftTitansMod.ReksaiSoundbank.bnk" LogicalName="RiftTitansMod.ReksaiSoundbank.bnk" />
+  </ItemGroup>
+   <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="BepInEx.Core" Version="5.4.21" />
+    <PackageReference Include="R2API.Items" Version="1.0.*" />
+    <PackageReference Include="R2API.Language" Version="1.0.*" />
+    <PackageReference Include="R2API.Director" Version="1.0.*" />
+    <PackageReference Include="R2API.Prefab" Version="1.0.*" />
+    <PackageReference Include="R2API.Sound" Version="1.0.*" />
+    <PackageReference Include="RiskOfRain2.GameLibs" Version="1.2.4-r.0" />
+    <PackageReference Include="UnityEngine.Modules" Version="2019.4.26" />
+    <PackageReference Include="MMHOOK.RoR2" Version="2022.9.20">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="R2API" />
+    <Reference Include="HGCSharpUtils">
+      <HintPath>..\HGCSharpUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking" />
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="MMHOOK_Assembly-CSharp" />
+    <Reference Include="MonoMod.Utils" />
+    <Reference Include="Mono.Cecil" />
+    <Reference Include="Wwise">
+      <HintPath>..\Wwise.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

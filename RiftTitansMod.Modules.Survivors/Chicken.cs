@@ -88,7 +88,7 @@ namespace RiftTitansMod.Modules.Survivors {
 			CharacterMotor component5 = characterPrefab.GetComponent<CharacterMotor>();
 			component5.mass = 150f;
 			characterPrefab.GetComponent<ModelLocator>().normalizeToFloor = true;
-			SfxLocator component6 = characterPrefab.GetComponent<SfxLocator>();
+			var component6 = characterPrefab.GetComponent<SfxLocator>();
 			component6.fallDamageSound = string.Empty;
 			component6.landingSound = string.Empty;
 			component6.barkSound = "ChickenIdle";

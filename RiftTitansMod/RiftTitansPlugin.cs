@@ -15,7 +15,7 @@ namespace RiftTitansMod {
 
 	[BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
 	[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
-	[BepInPlugin("com.phreel.TitansOfTheRiftSOTV", "TitansoftheRiftSOTV", "0.0.1")]
+	[BepInPlugin("com.phreel.TitansOfTheRiftSOTV", "TitansoftheRiftSOTV", "0.0.2")]
 	[R2APISubmoduleDependency(nameof(DirectorAPI), nameof(PrefabAPI), nameof(LanguageAPI), nameof(SoundAPI))]
 	public class RiftTitansPlugin : BaseUnityPlugin
 	{
@@ -23,7 +23,7 @@ namespace RiftTitansMod {
 
 		public const string MODNAME = "TitansoftheRiftSOTV";
 
-		public const string MODVERSION = "0.1.5";
+		public const string MODVERSION = "0.1.6";
 
 		public const string developerPrefix = "Phreel";
 
@@ -45,6 +45,7 @@ namespace RiftTitansMod {
 		private void Awake()
 		{
 			instance = this;
+			Files.PluginInfo = this.Info;
 			Assets.Initialize();
 			ReadConfig();
 			States.RegisterStates();
@@ -61,6 +62,11 @@ namespace RiftTitansMod {
 			ContentManager.onContentPacksAssigned += LateSetup;
 			Hook();
 		}
+
+		private void Start()
+        {
+			SoundBanks.Init();
+        }
 
 		private void LateSetup(ReadOnlyArray<ReadOnlyContentPack> obj)
 		{

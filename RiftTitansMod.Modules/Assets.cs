@@ -68,9 +68,9 @@ namespace RiftTitansMod.Modules {
 		internal static void Initialize()
 		{
 			LoadAssetBundle();
-			LoadSoundbank();
 			PopulateAssets();
 		}
+
 
 		internal static void LoadAssetBundle()
 		{
@@ -82,13 +82,13 @@ namespace RiftTitansMod.Modules {
 			assetNames = mainAssetBundle.GetAllAssetNames();
 		}
 
-		internal static void LoadSoundbank()
+		/*internal static void LoadSoundbank()
 		{
 			using Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("RiftTitansMod.ReksaiSoundbank.bnk");
 			byte[] array = new byte[stream.Length];
 			stream.Read(array, 0, array.Length);
 			SoundAPI.SoundBanks.Add(array);
-		}
+		}*/
 
 		internal static void PopulateAssets()
 		{

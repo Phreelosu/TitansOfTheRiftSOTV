@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using R2API;
 using RoR2;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.Rendering;
 
 namespace RiftTitansMod.Modules {
@@ -131,6 +132,8 @@ namespace RiftTitansMod.Modules {
 			{
 				SetupModelLocator(gameObject, transform, gameObject2.transform);
 			}
+			var rewards = gameObject.AddComponent<DeathRewards>();
+			rewards.logUnlockableDef = Addressables.LoadAssetAsync<UnlockableDef>("RoR2/Base/MiniMushroom/Logs.MiniMushroom.0.asset").WaitForCompletion();
 			SetupRigidbody(gameObject);
 			SetupCapsuleCollider(gameObject);
 			SetupMainHurtbox(gameObject, gameObject2);
@@ -333,6 +336,7 @@ namespace RiftTitansMod.Modules {
 			hurtBox.gameObject.layer = LayerIndex.entityPrecise.intVal;
 			hurtBox.healthComponent = prefab.GetComponent<HealthComponent>();
 			hurtBox.isBullseye = true;
+			hurtBox.isSniperTarget = true;
 			hurtBox.damageModifier = HurtBox.DamageModifier.Normal;
 			hurtBox.hurtBoxGroup = hurtBoxGroup;
 			hurtBox.indexInGroup = 0;
@@ -348,6 +352,7 @@ namespace RiftTitansMod.Modules {
 					hurtBox2.gameObject.layer = LayerIndex.entityPrecise.intVal;
 					hurtBox2.healthComponent = prefab.GetComponent<HealthComponent>();
 					hurtBox2.isBullseye = false;
+					hurtBox2.isSniperTarget = false;
 					hurtBox2.damageModifier = HurtBox.DamageModifier.Normal;
 					hurtBox2.hurtBoxGroup = hurtBoxGroup;
 					hurtBox2.indexInGroup = num;

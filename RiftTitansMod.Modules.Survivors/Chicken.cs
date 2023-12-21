@@ -71,6 +71,7 @@ namespace RiftTitansMod.Modules.Survivors {
 			}
 			}, bodyRendererIndex);
 			CreateHitboxes();
+			
 			CreateSkills();
 			InitializeItemDisplays();
 			DeathRewards deathRewards = characterPrefab.AddComponent<DeathRewards>();

@@ -16,7 +16,7 @@ namespace RiftTitansMod {
 	[BepInDependency("com.Moffein.RiskyArtifacts", BepInDependency.DependencyFlags.SoftDependency)]
 	[BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
 	[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.EveryoneNeedSameModVersion)]
-	[BepInPlugin("com.phreel.TitansOfTheRiftSOTV", "TitansoftheRiftSOTV", "0.2.0")]
+	[BepInPlugin("com.phreel.TitansOfTheRiftSOTV", "TitansoftheRiftSOTV", "0.2.1")]
 	[R2APISubmoduleDependency(nameof(DirectorAPI), nameof(PrefabAPI), nameof(LanguageAPI), nameof(SoundAPI))]
 	public class RiftTitansPlugin : BaseUnityPlugin
 	{
@@ -24,7 +24,7 @@ namespace RiftTitansMod {
 
 		public const string MODNAME = "TitansoftheRiftSOTV";
 
-		public const string MODVERSION = "0.2.0";
+		public const string MODVERSION = "0.2.1";
 
 		public const string developerPrefix = "Phreel";
 

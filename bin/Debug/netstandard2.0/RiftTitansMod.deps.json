@@ -19,7 +19,8 @@
           "R2API.Prefab": "1.0.2",
           "R2API.Sound": "1.0.1",
           "RiskOfRain2.GameLibs": "1.2.4-r.0",
-          "UnityEngine.Modules": "2019.4.26"
+          "UnityEngine.Modules": "2019.4.26",
+          "Risky_Artifacts": "1.0.0.0"
         },
         "runtime": {
           "RiftTitansMod.dll": {}
@@ -829,6 +830,14 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "Risky_Artifacts/1.0.0.0": {
+        "runtime": {
+          "Risky_Artifacts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1173,6 +1182,11 @@
       "sha512": "sha512-2d73AOFATaE0xsSY4qsK65CwT55e7g1myM7C5LMTdVRM57nAWpLWv8x/39uNHYjJQBnXqsQwsadk2H0xsyBsKA==",
       "path": "unityengine.modules/2019.4.26",
       "hashPath": "unityengine.modules.2019.4.26.nupkg.sha512"
+    },
+    "Risky_Artifacts/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

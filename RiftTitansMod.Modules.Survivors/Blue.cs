@@ -185,7 +185,7 @@ namespace RiftTitansMod.Modules.Survivors {
 			DirectorAPI.DirectorCardHolder relicCard = new DirectorAPI.DirectorCardHolder
 			{
 				Card = card,
-				MonsterCategory = DirectorAPI.MonsterCategory.BasicMonsters,
+				MonsterCategory = DirectorAPI.MonsterCategory.Minibosses,
 				InteractableCategory = (DirectorAPI.InteractableCategory)0
 			};
 			DirectorCard card2 = new DirectorCard
@@ -199,7 +199,7 @@ namespace RiftTitansMod.Modules.Survivors {
 			DirectorAPI.DirectorCardHolder blueLoopCard = new DirectorAPI.DirectorCardHolder
 			{
 				Card = card2,
-				MonsterCategory = DirectorAPI.MonsterCategory.BasicMonsters
+				MonsterCategory = DirectorAPI.MonsterCategory.Minibosses
 			};
 			RiftTitansPlugin.BlueCard = relicCard;
 			RiftTitansPlugin.BlueLoopCard = blueLoopCard;

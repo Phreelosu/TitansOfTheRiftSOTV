@@ -230,7 +230,7 @@ namespace RiftTitansMod.Modules.Survivors {
 			DirectorAPI.DirectorCardHolder relicCard = new DirectorAPI.DirectorCardHolder
 			{
 				Card = card,
-				MonsterCategory = DirectorAPI.MonsterCategory.Minibosses,
+				MonsterCategory = DirectorAPI.MonsterCategory.Champions,
 				InteractableCategory = (DirectorAPI.InteractableCategory)0
 			};
 			DirectorCard card2 = new DirectorCard
@@ -244,7 +244,7 @@ namespace RiftTitansMod.Modules.Survivors {
 			DirectorAPI.DirectorCardHolder baronLoopCard = new DirectorAPI.DirectorCardHolder
 			{
 				Card = card2,
-				MonsterCategory = DirectorAPI.MonsterCategory.Minibosses
+				MonsterCategory = DirectorAPI.MonsterCategory.Champions
 			};
 			RiftTitansPlugin.BaronCard = relicCard;
 			RiftTitansPlugin.BaronLoopCard = baronLoopCard;
@@ -258,6 +258,8 @@ namespace RiftTitansMod.Modules.Survivors {
 
 				DirectorAPI.Helpers.AddNewMonsterToStage(toAdd, false, DirectorAPI.GetStageEnumFromSceneDef(sd), ssi.GetStageName());
 			}
+
+			if (RiftTitansPlugin.riskyArtifactsInstalled) SetupRiskyCompat(characterSpawnCard);
 		}
 
 		private static void CreateHitboxes()
@@ -386,6 +388,11 @@ namespace RiftTitansMod.Modules.Survivors {
 			itemDisplayRuleSet.name = "idrsBlue";
 			componentInChildren.itemDisplayRuleSet = itemDisplayRuleSet;
 		}
+
+		public static void SetupRiskyCompat(CharacterSpawnCard spawnCard)
+        {
+			Risky_Artifacts.Artifacts.Origin.AddSpawnCard(spawnCard, Risky_Artifacts.Artifacts.Origin.BossTier.t2);
+        }
 
 		internal static void SetItemDisplays()
 		{

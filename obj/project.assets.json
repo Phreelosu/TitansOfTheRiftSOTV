@@ -185,7 +185,7 @@
           "lib/netstandard2.0/R2API.Director.dll": {}
         }
       },
-      "R2API.Items/1.0.2": {
+      "R2API.Items/1.0.3": {
         "type": "package",
         "dependencies": {
           "BepInEx.Core": "5.4.19",
@@ -220,7 +220,7 @@
           "lib/netstandard2.0/R2API.Language.dll": {}
         }
       },
-      "R2API.Prefab/1.0.2": {
+      "R2API.Prefab/1.0.3": {
         "type": "package",
         "dependencies": {
           "BepInEx.Core": "5.4.19",
@@ -238,7 +238,7 @@
           "lib/netstandard2.0/R2API.Prefab.dll": {}
         }
       },
-      "R2API.Sound/1.0.1": {
+      "R2API.Sound/1.0.2": {
         "type": "package",
         "dependencies": {
           "BepInEx.Core": "5.4.19",
@@ -256,7 +256,7 @@
           "lib/netstandard2.0/R2API.Sound.dll": {}
         }
       },
-      "RiskOfRain2.GameLibs/1.2.4-r.0": {
+      "RiskOfRain2.GameLibs/1.2.4.4-r.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Assembly-CSharp.dll": {},
@@ -1132,16 +1132,16 @@
         "r2api.director.nuspec"
       ]
     },
-    "R2API.Items/1.0.2": {
-      "sha512": "G3NbygYXFATldJXj4TLw/MXwXSglIhf4lZ7FOWAqR/eRtL137PxaVnADsrjMwdUWFrFOQbweGULngf10VwPvUA==",
+    "R2API.Items/1.0.3": {
+      "sha512": "BjrxN6yAO8a/aJdD4ibQyf8cknvalEG494UrWQKKwGU6/OECcZm2b4hio72TKVpPPCs/S8lTHBHsPXEcHL/r9w==",
       "type": "package",
-      "path": "r2api.items/1.0.2",
+      "path": "r2api.items/1.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/R2API.Items.dll",
         "lib/netstandard2.0/R2API.Items.xml",
-        "r2api.items.1.0.2.nupkg.sha512",
+        "r2api.items.1.0.3.nupkg.sha512",
         "r2api.items.nuspec"
       ]
     },
@@ -1158,36 +1158,36 @@
         "r2api.language.nuspec"
       ]
     },
-    "R2API.Prefab/1.0.2": {
-      "sha512": "/4Jx7sN4X0l1ol4T1C5Qv2F81RT83xzUvysv5RifD8bYQAp+z+QSd+SMmO9PFSwzybkbjLQjPjGtaGE9mn++7w==",
+    "R2API.Prefab/1.0.3": {
+      "sha512": "EDIaWyley4ceskGtp+zK/Yi5+xmFkBu1MzLXiMhiVf9Ffhr0K6KHLyXqVS7GA5PqLTBEIZR+9KOtWXTpmpCaLA==",
       "type": "package",
-      "path": "r2api.prefab/1.0.2",
+      "path": "r2api.prefab/1.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/R2API.Prefab.dll",
         "lib/netstandard2.0/R2API.Prefab.xml",
-        "r2api.prefab.1.0.2.nupkg.sha512",
+        "r2api.prefab.1.0.3.nupkg.sha512",
         "r2api.prefab.nuspec"
       ]
     },
-    "R2API.Sound/1.0.1": {
-      "sha512": "TUqVqxDPKUnEZarTg04zxLd8i2GXazfKDYKtrKp1Aug9F8i3PKDu07FqxyvDFIqFQ/9+diA4UrWLMY+nMbyf2Q==",
+    "R2API.Sound/1.0.2": {
+      "sha512": "i/00sagdLqR78nJ95Vw3m1YIdaRDPsv65ZNJ5CrMaFjWrT2XCA4KDub1IFtR/8iYOxC5FjIvtzxKFRwzhPwEUg==",
       "type": "package",
-      "path": "r2api.sound/1.0.1",
+      "path": "r2api.sound/1.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/R2API.Sound.dll",
         "lib/netstandard2.0/R2API.Sound.xml",
-        "r2api.sound.1.0.1.nupkg.sha512",
+        "r2api.sound.1.0.2.nupkg.sha512",
         "r2api.sound.nuspec"
       ]
     },
-    "RiskOfRain2.GameLibs/1.2.4-r.0": {
-      "sha512": "mzNQPEy8zlJY3yJMmfalXL7cgZJBgZkpe7wwZygLT7szj2dHhIlsm3FcGYL3tSYVYD2bcO5U2qxnRBaMj7qhCA==",
+    "RiskOfRain2.GameLibs/1.2.4.4-r.1": {
+      "sha512": "8RhNXK2ElQrCxGtmX8HSHEnSb9CL07R1d17s2mtM90iBRZH2DDv7RyGoAxHxniVnJq0uePmyDKScUKSlzSXtQA==",
       "type": "package",
-      "path": "riskofrain2.gamelibs/1.2.4-r.0",
+      "path": "riskofrain2.gamelibs/1.2.4.4-r.1",
       "files": [
         ".nupkg.metadata",
         "lib/netstandard2.0/Assembly-CSharp.dll",
@@ -1205,7 +1205,7 @@
         "lib/netstandard2.0/UnityEngine.UI.dll",
         "lib/netstandard2.0/Wwise.dll",
         "lib/netstandard2.0/com.unity.multiplayer-hlapi.Runtime.dll",
-        "riskofrain2.gamelibs.1.2.4-r.0.nupkg.sha512",
+        "riskofrain2.gamelibs.1.2.4.4-r.1.nupkg.sha512",
         "riskofrain2.gamelibs.nuspec"
       ]
     },
@@ -3096,7 +3096,7 @@
       "R2API.Language >= 1.0.*",
       "R2API.Prefab >= 1.0.*",
       "R2API.Sound >= 1.0.*",
-      "RiskOfRain2.GameLibs >= 1.2.4-r.0",
+      "RiskOfRain2.GameLibs >= 1.2.4.4-r.1",
       "UnityEngine.Modules >= 2019.4.26"
     ]
   },
@@ -3194,7 +3194,7 @@
           },
           "RiskOfRain2.GameLibs": {
             "target": "Package",
-            "version": "[1.2.4-r.0, )"
+            "version": "[1.2.4.4-r.1, )"
           },
           "UnityEngine.Modules": {
             "target": "Package",

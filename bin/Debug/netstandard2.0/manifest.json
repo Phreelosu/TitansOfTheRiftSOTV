@@ -1,0 +1,10 @@
+{
+    "name": "TitansOfTheRiftRevived",
+    "version_number": "0.2.13",
+    "website_url": "",
+    "description": "Ported to Survivors of the Void, Devotion Compatibility",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2113",
+		"tristanmcpherson-R2API-5.0.5"
+    ]
+}

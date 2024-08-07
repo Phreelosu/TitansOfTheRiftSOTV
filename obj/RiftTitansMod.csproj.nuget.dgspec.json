@@ -93,7 +93,7 @@
             },
             "RiskOfRain2.GameLibs": {
               "target": "Package",
-              "version": "[1.2.4-r.0, )"
+              "version": "[1.2.4.4-r.1, )"
             },
             "UnityEngine.Modules": {
               "target": "Package",

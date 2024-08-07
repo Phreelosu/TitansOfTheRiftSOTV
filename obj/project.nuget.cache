@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4yjM9C1uxBhHH+L/pNBv0Mp6YMMlwxZg10bubII0aB5Cy2NuGC+d41bzVFOhgYfuRrdY+Jb35CvR/i2izPFdBw==",
+  "dgSpecHash": "pmO0Y2HaPJbIuaz6gzHZvBoO03N5OeAE6luU0zxCUtX/MJQ8U7FhRdY5UC0/tNA/+9Lgl1hNKn8mZTt82/ih8w==",
   "success": true,
   "projectFilePath": "D:\\Games\\LostItems\\titans of the rift\\titansoftheriftSOTV\\RiftTitansMod.csproj",
   "expectedPackageFiles": [
@@ -18,11 +18,11 @@
     "C:\\Users\\Dani\\.nuget\\packages\\r2api.contentmanagement\\1.0.1\\r2api.contentmanagement.1.0.1.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\r2api.core\\5.0.8\\r2api.core.5.0.8.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\r2api.director\\1.0.0\\r2api.director.1.0.0.nupkg.sha512",
-    "C:\\Users\\Dani\\.nuget\\packages\\r2api.items\\1.0.2\\r2api.items.1.0.2.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\r2api.items\\1.0.3\\r2api.items.1.0.3.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\r2api.language\\1.0.1\\r2api.language.1.0.1.nupkg.sha512",
-    "C:\\Users\\Dani\\.nuget\\packages\\r2api.prefab\\1.0.2\\r2api.prefab.1.0.2.nupkg.sha512",
-    "C:\\Users\\Dani\\.nuget\\packages\\r2api.sound\\1.0.1\\r2api.sound.1.0.1.nupkg.sha512",
-    "C:\\Users\\Dani\\.nuget\\packages\\riskofrain2.gamelibs\\1.2.4-r.0\\riskofrain2.gamelibs.1.2.4-r.0.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\r2api.prefab\\1.0.3\\r2api.prefab.1.0.3.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\r2api.sound\\1.0.2\\r2api.sound.1.0.2.nupkg.sha512",
+    "C:\\Users\\Dani\\.nuget\\packages\\riskofrain2.gamelibs\\1.2.4.4-r.1\\riskofrain2.gamelibs.1.2.4.4-r.1.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\ror2bepinexpack\\1.7.0\\ror2bepinexpack.1.7.0.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Dani\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
